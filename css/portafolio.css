@@ -1,0 +1,43 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container nav ul{
+	display: flex;
+	background-color: gray;
+	justify-content: space-around;
+
+}
+
+.acerca {
+	margin-top: 20px;
+	margin-left: 20px;
+	font-size: 30px;
+
+}
+
+.trabajos{
+	display: flex;
+	flex-flow: row wrap;
+	margin-top: 30px;
+	margin-left: 20px;
+	font-size: 20px;
+
+}
+
+
+.trabajos h2{
+	width: 100%;
+}
+
+.contacto{
+
+}
+
+@media (min-width: 320px) and (max-width: 600px){
+    .container nav ul {
+        width: 100%;
+        flex-direction: column;
+        padding-top: 10px;
+        
+    }

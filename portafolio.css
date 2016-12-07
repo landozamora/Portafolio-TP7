@@ -1,0 +1,10 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container nav ul{
+	display: flex;
+	border-color: blue;
+	justify-content: space-around;
+}
+
